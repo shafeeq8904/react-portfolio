@@ -6,7 +6,7 @@ import { FaInstagram } from 'react-icons/fa';
 
 function Navbar() {
     return (
-        <nav className='mb-20 flex items-center justify-between py-6 '>
+        <nav className='mb-20 lg:mb-2 flex items-center justify-between py-6 '>
             <div className='flex flex-shrink-0 items-center text-gray-400 gap-1'>
                 <FontAwesomeIcon className='text-3xl'  icon={faS} />
                 <FontAwesomeIcon icon={faA} />
