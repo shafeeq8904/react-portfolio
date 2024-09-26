@@ -1,55 +1,49 @@
 import hotel from '../assets/hotel.avif'
 import expense from '../assets/expense.avif'
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications .I have honed my skills in front-end technologies like HTML ,CSS and React as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = ` I am a dedicated and enthusiastic
+ electrical and electronics engineer. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
+    year: "2021 - Present",
+    role: "BANNARI AMMAN INSTITUTE OF TECHNOLOGY",
     company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    description: ` B.E - Electrical And Electronics Engineering`,
+    technologies: ["CGPA: 8.12"],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "VELAMMAL MATRICULATION HIGHER SECONDARY SCHOOL",
+    company: "Adobe",
+    description: `HSC - Higher Secondary Certificate`,
+    technologies: ["PERCENTAGE: 88.78"],
   },
+  {
+    year: "2018 - 2019",
+    role: "VELAMMAL VIDYALAYA ANUPPANADI",
+    company: "Facebook",
+    description: `CBSE - Central Board of Secondary Education`,
+    technologies: ["CGPA : 8.04"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Airbnb Clone",
     image: hotel,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "This is a full-stack Airbnb clone 🏠 built using modern web technologies to replicate the core functionality of Airbnb’s platform, including displaying property listings, image galleries, and detailed information about each place.",
+    technologies: ["React", "Node.js", "MongoDB","Express Js"],
   },
   {
-    title: "Task Management App",
+    title: "Expense Tracker",
     image: expense,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An Expense Tracker built with the MERN stack allows users to track and categorize their expenses in real-time. It features a MongoDB database, Express and Node.js for the backend, and a React front-end for a smooth, responsive user experience.",
+    technologies: ["React", "Node.js", "MongoDB","Express Js"],
   }
 ];
 

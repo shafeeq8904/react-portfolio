@@ -50,7 +50,7 @@ function Hero(){
                         <motion.img
                             initial={{x:100 ,opacity: 0}}
                             whileInView={{opacity:1,x:0}} 
-                            transition={{duration:1 ,delay:1.2}}
+                            transition={{duration:0.5 ,delay:1}}
                             className=" rounded-2xl w-60 h-auto lg:w-80" src={Profile}/>
                     </div>
                 </div>
